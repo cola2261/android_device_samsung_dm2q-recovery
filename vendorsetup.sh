@@ -56,6 +56,9 @@ export FOX_USE_TAR_BINARY=1
 export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
 
+# Disable OFOX SEANDROIDENFORCE
+export FOX_NO_SAMSUNG_SPECIAL=1
+
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
