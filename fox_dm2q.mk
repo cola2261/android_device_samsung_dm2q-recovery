@@ -36,11 +36,16 @@ OF_ADVANCED_SECURITY := 1
 OF_MAINTAINER := cola2261
 
 # OrangeFox GUI settings
-
-# Aspect ratio 19.5:9 dm2q (x:y x*120 = OF_SCREEN_H)
+# dm2q
 OF_SCREEN_H := 2340
-OF_STATUS_H := 100
-OF_STATUS_INDENT_LEFT := 48
-OF_STATUS_INDENT_RIGHT := 48
+OF_STATUS_H := 74
+OF_STATUS_INDENT_LEFT := 68
+OF_STATUS_INDENT_RIGHT := 68
 OF_CLOCK_POS := 1
 OF_OPTIONS_LIST_NUM := 6
+
+# Flashlight Path
+OF_FL_PATH1 := /sys/class/leds/leds-sec1
+
+# lz4 compression
+OF_USE_LZ4_COMPRESSION := 1
