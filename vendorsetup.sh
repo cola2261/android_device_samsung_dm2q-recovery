@@ -46,7 +46,6 @@ export FOX_VANILLA_BUILD=1
 
 # OrangeFox Addons
 export FOX_ENABLE_APP_MANAGER=1
-export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
 
 # Binaries & Tools
 export FOX_USE_BASH_SHELL=1
@@ -58,6 +57,9 @@ export FOX_USE_XZ_UTILS=1
 
 # Disable OFOX SEANDROIDENFORCE
 export FOX_NO_SAMSUNG_SPECIAL=1
+
+# Delete AROMAFM on zip as the device does not support it
+export FOX_DELETE_AROMAFM=1
 
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
