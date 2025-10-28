@@ -24,17 +24,12 @@
 # OrangeFox settings
 OF_HIDE_NOTCH := 1
 OF_USE_GREEN_LED := 0
-OF_FLASHLIGHT_ENABLE := 1
 OF_ALLOW_DISABLE_NAVBAR := 0
-OF_SKIP_FBE_DECRYPTION := 1
 
 # Maximum permissible splash image size (in kilobytes); do *NOT* increase
 OF_SPLASH_MAX_SIZE := 130
 
 OF_ADVANCED_SECURITY := 1
-
-# Maintainer
-OF_MAINTAINER := cola2261
 
 # OrangeFox GUI settings
 # dm2q
@@ -44,9 +39,3 @@ OF_STATUS_INDENT_LEFT := 68
 OF_STATUS_INDENT_RIGHT := 68
 OF_CLOCK_POS := 1
 OF_OPTIONS_LIST_NUM := 6
-
-# lz4 compression
-OF_USE_LZ4_COMPRESSION := 1
-
-# LPTools
-OF_ENABLE_LPTOOLS := 1
