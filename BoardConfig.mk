@@ -16,7 +16,3 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 109051904
 
 # Inherit from common tree
 include device/samsung/sm8550-common/BoardConfigCommon.mk
-
-# Brighness values for dm2q
-TW_MAX_BRIGHTNESS := 612
-TW_DEFAULT_BRIGHTNESS := 210
