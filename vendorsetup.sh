@@ -43,7 +43,7 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 # OrangeFox variant
-export FOX_VARIANT=Beta
+export FOX_VARIANT=Stable
 
 # OrangeFox build
 export FOX_VANILLA_BUILD=1
