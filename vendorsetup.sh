@@ -47,7 +47,7 @@ export FOX_VARIANT=Beta
 
 # OrangeFox build
 export FOX_VANILLA_BUILD=1
-export FOX_MAINTAINER_PATCH_VERSION=01
+export FOX_MAINTAINER_PATCH_VERSION="1"
 
 # OrangeFox Addons
 # export FOX_ENABLE_APP_MANAGER=1
