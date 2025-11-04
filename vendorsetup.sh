@@ -42,12 +42,12 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
-# OrangeFox variant
+# OrangeFox build settings
 export FOX_VARIANT=Stable
-
-# OrangeFox build
+export FOX_MAINTAINER_PATCH_VERSION="2"
 export FOX_VANILLA_BUILD=1
-export FOX_MAINTAINER_PATCH_VERSION="1"
+export FOX_NO_SAMSUNG_SPECIAL=1
+export FOX_DELETE_AROMAFM=1
 
 # OrangeFox Addons
 # export FOX_ENABLE_APP_MANAGER=1
@@ -62,12 +62,6 @@ export FOX_USE_XZ_UTILS=1
 export FOX_USE_LZ4_BINARY=1
 export FOX_USE_ZSTD_BINARY=1
 export FOX_USE_DATE_BINARY=1
-
-# Disable OFOX SEANDROIDENFORCE
-export FOX_NO_SAMSUNG_SPECIAL=1
-
-# Delete AROMAFM on zip as the device does not support it
-export FOX_DELETE_AROMAFM=1
 
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
