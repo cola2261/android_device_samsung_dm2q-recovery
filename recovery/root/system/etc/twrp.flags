@@ -70,7 +70,7 @@
 /prism_image	emmc		/dev/block/bootdevice/by-name/prism		    	flags=backup=0;flashimg=0;display="Prism Image"
 
 # Removable storage
-/usb-otg		auto		/dev/block/sdg1	/dev/block/sdg					flags=display="USB OTG";storage;removable
+/usb_otg		auto		/dev/block/sdg1	/dev/block/sdg					flags=display="USB OTG";storage;removable
 
 # /carrier            ext4      /dev/block/bootdevice/by-name/carrier            flags=display="Carrier"
 # /keydata            ext4      /dev/block/bootdevice/by-name/keydata            flags=display=keydata
