@@ -44,7 +44,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 # OrangeFox build settings
 export FOX_VARIANT=Stable
-export FOX_MAINTAINER_PATCH_VERSION="2"
+export FOX_MAINTAINER_PATCH_VERSION="4"
 export FOX_VANILLA_BUILD=1
 export FOX_NO_SAMSUNG_SPECIAL=1
 export FOX_DELETE_AROMAFM=1
